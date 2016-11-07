@@ -1,8 +1,67 @@
+/*.navenu {
+    background-color: #1e1e1e;
+    background-image: url("../images/NavBar.gif");
+    background-position: top;
+    border-top: 1px solid #383838;
+    margin-bottom: 5px;
+    z-index:105;
+}*/
+html,body{
+margin: 0;
+padding: 0;
+}
+header{
+  background-image: url("../images/pagrindinis.jpg");
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  overflow: auto;
+background-size: cover;
+
+
+}
 nav ul li {
+  color: white;
+  position:relative;
+  left:35%;top:0;
   list-style-type: none;
   padding: 10px;
   display: inline-block;
 text-align: center;
 text-decoration:none;
 margin:0 auto;
+}
+.tekstas{
+  text-align: center;
+  color: white;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/pagrindine2.jpeg");
+}
+#box{
+  width: 100%;
+}
+.boxai{
+
+position: relative;
+}
+.nuotrauka1{
+  background-image: url("../images/antrasDu.jpg");
+height: 300px;
+  float: left;
+width: 70%;
+background-size: cover;
+position: relative;
+}
+.nuotrauka2{
+  background-image: url("../images/antras.jpg");
+  background-size: cover;
+  width: 30%;
+  float:right;
+  position: relative;
+}
+.tekstas1{
+color: blue;
+position: relative;
 }
