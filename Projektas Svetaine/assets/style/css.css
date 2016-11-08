@@ -11,11 +11,10 @@ margin: 0;
 padding: 0;
 }
 header{
-  background-image: url("../images/pagrindine2.jpeg");
-  height: 500px;
+  background-image: url("../images/main.jpg");
+  height: 450px;
   margin: 0;
   padding: 0;
-  overflow: auto;
 background-size: cover;
 
 
@@ -58,7 +57,7 @@ width: 70%;
 background-size: cover;
 position: relative;
 }
-.logo2{
+.logo1-right{
   width: 30%;
   background-color: grey;
   height: 100%;
@@ -69,22 +68,22 @@ position: relative;
 color: white;
 position: relative;
 }
-.logo2-right{
+.logo1-left{
   background-image: url("../images/antras.jpg");
   background-size: cover;
   height: 100%;
   position: relative;
 
 }
-.logo3{
-  background-image: url("../images/logo3.jpg");
+.logo2{
+  background-image: url("../images/logo2.jpg");
   height: 100%;
   float: right;
 width: 70%;
 background-size: cover;
 position: relative;
 }
-.logo4{
+.logo2-left{
   width: 30%;
   height: 100%;
   background-color: grey;
@@ -96,10 +95,35 @@ color: white;
 height: 30%;
 position: relative;
 }
-.logo4-right{
+.logo2-right{
   background-image: url("../images/smallLogo.jpg");
   background-size: cover;
   height: 70%;
   position: relative;
-
+}
+.logo2{
+  background-image: url("../images/logo2.jpg");
+  height: 100%;
+  float: right;
+width: 70%;
+background-size: cover;
+position: relative;
+}
+.logo3-left{
+  width: 30%;
+  height: 100%;
+  background-color: grey;
+  float:left;
+  position: relative;
+}
+.tekstas2{
+color: white;
+height: 30%;
+position: relative;
+}
+.logo3-right{
+  background-image: url("../images/smallLogo.jpg");
+  background-size: cover;
+  height: 70%;
+  position: relative;
 }
