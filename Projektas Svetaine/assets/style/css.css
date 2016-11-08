@@ -136,3 +136,41 @@ width: 33.33%;
 background-size: cover;
 position: relative;
 }
+h3{
+  margin: 0;
+}
+.subscribe{
+  text-align: center;
+  background-color: grey;
+
+}
+.subscribe-input{
+  margin-bottom: 20px;
+}
+footer{
+  background-color: #eeebeb;
+}
+.adresas{
+  list-style-type: none;
+  margin: 0;
+  text-align: left;
+  float: left;
+}
+.info{
+  text-align: right;
+  float: right;
+margin: 0;
+}
+.socialDiv{
+  padding: 40px;
+  text-align: center;
+}
+.social-icons{
+  background-color: #dbdbdb;
+  width: 30px;
+  text-align: center;
+  display: inline-block;
+}
+.social-icons:hover {
+  width: 35px;
+}
