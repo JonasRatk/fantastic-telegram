@@ -11,7 +11,7 @@ margin: 0;
 padding: 0;
 }
 header{
-  background-image: url("../images/pagrindinis.jpg");
+  background-image: url("../images/pagrindine2.jpeg");
   height: 500px;
   margin: 0;
   padding: 0;
@@ -34,34 +34,72 @@ margin:0 auto;
 .tekstas{
   text-align: center;
   color: white;
-  background-size: cover;
   margin: 0;
   padding: 0;
   background-image: url("../images/pagrindine2.jpeg");
+  background-size: cover;
 }
 #box{
   width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
 }
 .boxai{
 
 position: relative;
+height: 500px;
 }
-.nuotrauka1{
-  background-image: url("../images/antrasDu.jpg");
-height: 300px;
+.logo1{
+  background-image: url("../images/logo1.jpeg");
+  height: 100%;
   float: left;
 width: 70%;
 background-size: cover;
 position: relative;
 }
-.nuotrauka2{
-  background-image: url("../images/antras.jpg");
-  background-size: cover;
+.logo2{
   width: 30%;
+  background-color: grey;
+  height: 100%;
   float:right;
   position: relative;
 }
 .tekstas1{
-color: blue;
+color: white;
 position: relative;
+}
+.logo2-right{
+  background-image: url("../images/antras.jpg");
+  background-size: cover;
+  height: 100%;
+  position: relative;
+
+}
+.logo3{
+  background-image: url("../images/logo3.jpg");
+  height: 100%;
+  float: right;
+width: 70%;
+background-size: cover;
+position: relative;
+}
+.logo4{
+  width: 30%;
+  height: 100%;
+  background-color: grey;
+  float:left;
+  position: relative;
+}
+.tekstas2{
+color: white;
+height: 30%;
+position: relative;
+}
+.logo4-right{
+  background-image: url("../images/smallLogo.jpg");
+  background-size: cover;
+  height: 70%;
+  position: relative;
+
 }
