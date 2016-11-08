@@ -12,12 +12,15 @@ padding: 0;
 }
 header{
   background-image: url("../images/main.jpg");
-  height: 450px;
+  height: 650px;
   margin: 0;
   padding: 0;
-background-size: cover;
+position: relative;
+background-size:cover;
 
-
+}
+ul{
+  margin: 0;
 }
 nav ul li {
   color: white;
@@ -28,15 +31,16 @@ nav ul li {
   display: inline-block;
 text-align: center;
 text-decoration:none;
-margin:0 auto;
+margin:0
 }
 .tekstas{
+  background-color: grey;
   text-align: center;
   color: white;
   margin: 0;
   padding: 0;
-  background-image: url("../images/pagrindine2.jpeg");
-  background-size: cover;
+  position:absolute;
+  bottom: 0;
 }
 #box{
   width: 100%;
@@ -45,9 +49,9 @@ margin:0 auto;
   padding: 0;
 }
 .boxai{
-
+overflow: hidden;
 position: relative;
-height: 500px;
+
 }
 .logo1{
   background-image: url("../images/logo1.jpeg");
@@ -64,12 +68,15 @@ position: relative;
   float:right;
   position: relative;
 }
+.logo1-right img{
+  width: 100%;
+  height: auto;
+}
 .tekstas1{
 color: white;
 position: relative;
 }
 .logo1-left{
-  background-image: url("../images/antras.jpg");
   background-size: cover;
   height: 100%;
   position: relative;
@@ -90,40 +97,42 @@ position: relative;
   float:left;
   position: relative;
 }
+.logo2-left img {
+  width: 100%;
+  height: auto;
+}
 .tekstas2{
 color: white;
-height: 30%;
 position: relative;
 }
-.logo2-right{
-  background-image: url("../images/smallLogo.jpg");
-  background-size: cover;
-  height: 70%;
-  position: relative;
-}
-.logo2{
+.logo3{
   background-image: url("../images/logo2.jpg");
   height: 100%;
-  float: right;
-width: 70%;
+  float: left;
+width: 33.33%;
 background-size: cover;
 position: relative;
 }
-.logo3-left{
-  width: 30%;
-  height: 100%;
-  background-color: grey;
+.logo3-center{
+  width: 33.33%;
   float:left;
+
+  background-color: grey;
   position: relative;
 }
-.tekstas2{
+.logo3-center img{
+  width: 100%;
+  height: auto;
+}
+.tekstas3{
 color: white;
-height: 30%;
 position: relative;
 }
 .logo3-right{
-  background-image: url("../images/smallLogo.jpg");
-  background-size: cover;
-  height: 70%;
-  position: relative;
+  background-image: url("../images/logo2.jpg");
+
+  float: left;
+width: 33.33%;
+background-size: cover;
+position: relative;
 }

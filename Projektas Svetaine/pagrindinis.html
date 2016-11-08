@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <title>Laikrodziai</title>
 <meta name="Description" content="laikrodziai">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" type="text/css" href="assets/style/css.css" />
 </head>
 <body>
@@ -19,14 +20,14 @@
   </ul>
     </nav>
   </div>
+
+  <div class="tekstas">
+  <h1>Apie Mus</h1>
+    <p>Pinigais narys kontroliuojamųjų. Vykdančios turtu įgijęs aukos produktus. Netiesiogiai kiti kilnojamąjį. Išdavimo tam teikiama skolų registre. Vykdyti dėl minėto. Įtrauktas kitus mokamų kurių turinčiais taiko minimaliųjų. Drabužiai vieta patirtos. Konkretaus lygi asmenų tėvų reglamentuojančiuose. Pasirodymui formą nurodytą. Vertinimu šiuo suteikus karto demonstruoti ji techninio.</p>
+    </div>
   </header>
 
-<div class="tekstas">
 
-<h1>Apie Mus</h1>
-<img src="assets/images/mainlogo.png" width="50px" alt="logo">
-  <p>Pinigais narys kontroliuojamųjų. Vykdančios turtu įgijęs aukos produktus. Netiesiogiai kiti kilnojamąjį. Išdavimo tam teikiama skolų registre. Vykdyti dėl minėto. Įtrauktas kitus mokamų kurių turinčiais taiko minimaliųjų. Drabužiai vieta patirtos. Konkretaus lygi asmenų tėvų reglamentuojančiuose. Pasirodymui formą nurodytą. Vertinimu šiuo suteikus karto demonstruoti ji techninio.</p>
-  </div>
 <section id="box">
 <div class="boxai">
   <div class="logo1">
@@ -34,9 +35,9 @@
   <div class="logo1-right">
     <div class="tekstas1">
       <p>Gavėjo tėvus techninio kurio mokesčiu net kūrimas. Techninio zona nuolatinių. Akcininkas turtu produktus šioje sąvoka į praėjusį. Susikūrimo laivo daugiau fonde centrinis valdų pilietis. Taisyklių algų perkeliama tarp nugalėtojams npd nustojamas.</p>
+
     </div>
-  <div class="logo1-left">
-  </div>
+    <img src="assets/images/pagrindine2.jpeg">
   </div>
 
 </div>
@@ -46,25 +47,89 @@
   <div class="logo2-left">
     <div class="tekstas2">
       <p>Gavėjo tėvus techninio kurio mokesčiu net kūrimas. Techninio zona nuolatinių. Akcininkas turtu produktus šioje sąvoka į praėjusį. Susikūrimo laivo daugiau fonde centrinis valdų pilietis. Taisyklių algų perkeliama tarp nugalėtojams npd nustojamas.</p>
+
     </div>
-  <div class="logo2-right">
-  </div>
+      <img src="assets/images/smallLogo.jpg">
   </div>
 </div>
+
 <div class="boxai">
   <div class="logo3">
   </div>
   <div class="logo3-center">
-    <div class="tekstas2">
+    <div class="tekstas3">
       <p>Gavėjo tėvus techninio kurio mokesčiu net kūrimas. Techninio zona nuolatinių. Akcininkas turtu produktus šioje sąvoka į praėjusį. Susikūrimo laivo daugiau fonde centrinis valdų pilietis. Taisyklių algų perkeliama tarp nugalėtojams npd nustojamas.</p>
+
     </div>
-  <div class="logo3-right">
-  </div>
+    <img src="assets/images/smallLogo.jpg" height="">
+</div>
   <div class="logo3-right">
   </div>
 </div>
+
+
 </section>
+
+<script>
+
+window.addEventListener("DOMContentLoaded",function(){
+
+var left = document.getElementsByClassName("logo2")[0];
+var right = document.getElementsByClassName("logo2-left")[0].offsetHeight;
+console.log(right);
+
+
+left.style.height = right + "px";
+
+window.addEventListener("resize",function(){
+  var left = document.getElementsByClassName("logo2")[0];
+  var right = document.getElementsByClassName("logo2-left")[0].offsetHeight;
+  left.style.height = right + "px";
+})
+
+})
+window.addEventListener("DOMContentLoaded",function(){
+
+window.addEventListener("resize",function(){
+var left1 = document.getElementsByClassName("logo1")[0];
+var right1 = document.getElementsByClassName("logo1-right")[0].offsetHeight;
+
+var center = document.getElementsByClassName("logo3-center")[0].offsetHeight;
+var left2 = document.getElementsByClassName("logo3")[0];
+var right2 = document.getElementsByClassName("logo3-right")[0];
+
+left1.style.height = right1 + "px";
+right2.style.height = center + "px";
+left2.style.height = center + "px";
+
+
+  var left1 = document.getElementsByClassName("logo1")[0];
+  var right1 = document.getElementsByClassName("logo1-right")[0].offsetHeight;
+  left1.style.height = right1 + "px";
+})
+
+})
+
+
+
+
+
+
+
+
+
+
+</script>
+
+
 </body>
+
+
+
+
+
+
+
 
 
 
