@@ -83,7 +83,7 @@
             </p>
         </div>
         <form action="index.html" method="post" class="subscribe-form">
-            <input type="email" name="email" class="subscribe-input" placeholder="Email address" autofocus>
+            <input type="email" name="email" class="subscribe-input" placeholder="Email address">
             <button type="submit" class="subscribe-submit">Subscribe</button>
         </form>
     </section>
@@ -116,6 +116,21 @@
             var left = document.getElementsByClassName("logo2")[0];
             var right = document.getElementsByClassName("logo2-left")[0].offsetHeight;
             console.log(right);
+            var left1 = document.getElementsByClassName("logo1")[0];
+            var right1 = document.getElementsByClassName("logo1-right")[0].offsetHeight;
+
+            var center = document.getElementsByClassName("logo3-center")[0].offsetHeight;
+            var left2 = document.getElementsByClassName("logo3")[0];
+            var right2 = document.getElementsByClassName("logo3-right")[0];
+
+            left1.style.height = right1 + "px";
+            right2.style.height = center + "px";
+            left2.style.height = center + "px";
+
+
+            var left1 = document.getElementsByClassName("logo1")[0];
+            var right1 = document.getElementsByClassName("logo1-right")[0].offsetHeight;
+            left1.style.height = right1 + "px";
 
 
             left.style.height = right + "px";
@@ -124,12 +139,6 @@
                 var left = document.getElementsByClassName("logo2")[0];
                 var right = document.getElementsByClassName("logo2-left")[0].offsetHeight;
                 left.style.height = right + "px";
-            })
-
-        })
-        window.addEventListener("DOMContentLoaded", function() {
-
-            window.addEventListener("resize", function() {
                 var left1 = document.getElementsByClassName("logo1")[0];
                 var right1 = document.getElementsByClassName("logo1-right")[0].offsetHeight;
 
@@ -142,12 +151,11 @@
                 left2.style.height = center + "px";
 
 
-                var left1 = document.getElementsByClassName("logo1")[0];
-                var right1 = document.getElementsByClassName("logo1-right")[0].offsetHeight;
                 left1.style.height = right1 + "px";
             })
 
         })
+
     </script>
 
 
