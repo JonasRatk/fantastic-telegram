@@ -85,7 +85,7 @@
             </div>
         </div>
         <div class="slider">
-          <div class="slider1">your content</div>
+          <div>your content</div>
           <div>your content</div>
           <div>your content</div>
         </div>
@@ -109,8 +109,10 @@
 <div class="socialDiv">
 
 <div class="adresas">
-  <ul>
-        <li class="adresas">Vilnius</li>
+  <ul id="adresas">
+        <li class="adresas">Vilnius Coding School</li>
+        <br>
+        <li class="adresas">J. Galvydžio g. 5</li>
         <br>
         <li class="adresas">Vilnius</li>
       </ul>
@@ -139,7 +141,7 @@
             });
         });
 
-        window.addEventListener("DOMContentLoaded", function() {
+        window.addEventListener("load", function() {
 
             var left = document.getElementsByClassName("logo2")[0];
             var right = document.getElementsByClassName("logo2-left")[0].offsetHeight;
